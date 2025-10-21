@@ -19,3 +19,13 @@ All the experimental running on MoFo are integrated within file `/scripts/MoFo.s
 ```
 sh MoFo.sh
 ```
+
+## 4. Citation
+```
+@inproceedings{ma2025mofo, 
+  title     =  {MoFo: Empowering Long-term Time Series Forecasting with Periodic Pattern Modeling},
+  author    = {Ma, Jiaming and Wang, Binwu and Huang, Qihe and Wang, Guanjun and Wang, Pengkun and Zhou, Zhengyang and Wang, Yang},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2025}
+}
+```
