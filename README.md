@@ -21,7 +21,7 @@ sh MoFo.sh
 ```
 
 ## 4. Citation
-```
+```bibetex
 @inproceedings{ma2025mofo, 
   title     =  {MoFo: Empowering Long-term Time Series Forecasting with Periodic Pattern Modeling},
   author    = {Ma, Jiaming and Wang, Binwu and Huang, Qihe and Wang, Guanjun and Wang, Pengkun and Zhou, Zhengyang and Wang, Yang},
