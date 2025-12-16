@@ -15,10 +15,11 @@ The experiment requires the same environment as [TFB](https://github.com/decisio
 <br>
 
 ## 3. Reproduction of the Long-term Time Series Forecasting
-All the experimental running on MoFo are integrated within file `/scripts/MoFo.sh`. You can run it through the following commands,
+The experimental running on MoFo are integrated within file `/scripts/MoFo_Example.sh`. You can run it through the following commands,
 ```
-sh MoFo.sh
+sh MoFo_Example.sh
 ```
+Other hyperparameters can be seen in the Appendix of Paper.
 
 ## 4. Citation
 ```bibtex
