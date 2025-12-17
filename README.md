@@ -7,6 +7,8 @@ This is the official repository of our NeurIPS 2025 Paper. This paper introduces
 ### 1.1 Coding Framework
 All of our experiments are running on the [TFB](https://github.com/decisionintelligence/TFB) coding framework. To run MoFo, you need to configure your environment and datasets according to their requirements.
 
+**Since the framework, details, and environment of TFB have been updated, the current MoFo code is no longer applicable. With the help of the official TFB team, we will promptly update MoFo's code and results to align with the latest TFB framework before the final revision deadline for NeurIPS 2025.**
+
 <br>
 
 ## 2. Environmental Requirments
