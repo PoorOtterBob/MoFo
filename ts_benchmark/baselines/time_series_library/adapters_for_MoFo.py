@@ -9,12 +9,8 @@ from torch.utils.data import DataLoader
 from sklearn.preprocessing import StandardScaler
 from torch import optim
 
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import numpy as np
-from typing import List, Tuple
 import sys
+from typing import List
 
 from ts_benchmark.baselines.time_series_library.utils.tools import (
     EarlyStopping,
@@ -116,7 +112,7 @@ def unflatten_grads(flat_grad: torch.Tensor, params: List[nn.Parameter]):
 # --- Algorithm 1 Implementation ---
 
 def min_norm_2_vec(vec1: torch.Tensor, vec2: torch.Tensor, epsilon: float = 1e-8) -> float:
-    """
+    r"""
     Solves min_{gamma \in [0,1]} || gamma * vec1 + (1-gamma) * vec2 ||^2
     using the closed-form solution from Algorithm 1 in the paper.
 
